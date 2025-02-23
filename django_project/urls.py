@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("pages.urls")), # Включване на маршрутизацията от приложението pages
+    path("", include("pages.urls")), 
 ]
